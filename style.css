@@ -5,67 +5,87 @@ body {
   color: #333;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
 header {
-  background-color: #f2e2c4;
-  padding: 20px;
+  background-color: #f3d6a1;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #000;
 }
 
 header h1 {
+  color: #654321;
+  font-size: 24px;
+  font-weight: bold;
   margin: 0;
 }
+
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
-  padding: 0;
+  gap: 15px;
   margin: 0;
+  padding: 0;
 }
 
 nav a {
   text-decoration: none;
   background-color: #654321;
   color: white;
-  padding: 10px 15px;
-  border-radius: 4px;
+  padding: 10px 18px;
+  font-weight: bold;
+  border-radius: 3px;
+  display: inline-block;
 }
+
 
 .services {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 40px 20px;
+  gap: 30px;
+  padding: 40px;
+  background-color: #deb887;
 }
 
 .card {
   background: white;
   padding: 20px;
-  border-radius: 6px;
-  width: 250px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
+  width: 260px;
 }
 
-.card button {
+.card button,
+.about button {
   background-color: #654321;
   color: white;
   border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
+  padding: 12px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 12px;
   cursor: pointer;
-  border-radius: 4px;
 }
+
 
 .about {
   background-color: white;
   margin: 40px auto;
-  padding: 20px;
-  width: 80%;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  padding: 20px 30px;
+  width: 85%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
