@@ -1,5 +1,38 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+body {
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.movie-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  display: block;
+}
+
+.movie-info {
+  padding: 16px;
+}
+
+.movie-info h2 {
+  margin-top: 0;
+}
+
+.rating {
+  display: inline-block;
+  background-color: tomato;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}
