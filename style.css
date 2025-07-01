@@ -1,4 +1,15 @@
-/*COLORS:
+/*COLObody {
+  background-color: #f8f9fa;
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+h1 {
+  font-weight: bold;
+}RS:
 Header background - #FFDBAA
 button - #805215
 Header Text - #553100
