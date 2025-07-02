@@ -1,12 +1,86 @@
 body {
-  background-color:brown
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #c7925c;
+  color: #3b2c0a;
 }
 
-.card img {
-  object-fit: cover;
-  height: 200px;
+header {
+  background-color: #f6c98f;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #3b2c0a;
 }
 
-h1 {
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+nav button {
+  background-color: #895714;
+  color: white;
   font-weight: bold;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card button {
+  background-color: #895714;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.about {
+  background: white;
+  margin: 40px auto;
+  max-width: 90%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.about h2 {
+  margin-top: 0;
+}
+
+.about button {
+  background-color: #895714;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
 }
